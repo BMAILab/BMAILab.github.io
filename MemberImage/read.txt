@@ -1,1 +1,1 @@
-MemberImage
+This folder is used for storing the Members' photographs.
