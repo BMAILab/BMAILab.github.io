@@ -1,0 +1,105 @@
+.main{
+ margin-top: 3%;
+ text-align: center;
+}
+
+.abstrcat{
+    display: flex;
+    flex-direction: row;
+    /* 依次为上,右,下,左*/
+    margin: 5px 0px 10px 20px;
+}
+
+.lab-name{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px 10px 20px;
+}
+
+.logo{
+    width: 220px;
+    height: 160px;
+    margin: 5px 0px 10px 15%;
+}
+
+.title{
+    height: 160px;
+    margin: 5px 20% 10px 20px;
+}
+
+.chef-info{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px 5px 40px;
+}
+
+.photo{
+    width: 160px;
+    height: 190px;
+    margin: 20px 0px 20px 17%;
+}
+
+.rank{
+    text-align: left;
+    width: 550px;
+    height: 210px;
+    margin: 5px 0px 5px 60px;
+}
+
+.contact{
+    text-align: left;
+    width: 400px;
+    height: 210px;
+    margin: 5px 10% 10px 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px 5px 25%;
+}
+
+.menu ul{
+    list-style:none;
+    float:left;
+    padding:0;
+    margin: 20px 20px 0px 50px;
+    border:0;
+}
+.menu li{
+    list-style: none;
+    float:left;
+    font-size: 18.0pt;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    padding:0 20px;
+    height:25px;
+    line-height: 25px;
+}
+
+.content{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 20px 10%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content ul{
+    list-style:circle;
+    padding:0;
+    margin: 10px 20px 0px 35px;
+    border:0;
+}
+
+.content li{
+    list-style: circle;
+    font-size: 15px;
+    font-family: "Arial", sans-serif;
+    height:25px;
+    line-height: 25px;
+}

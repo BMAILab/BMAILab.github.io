@@ -1,0 +1,40 @@
+h4{
+    margin-bottom: 5px;
+}
+.vacany-container {
+    box-sizing: border-box;
+    padding: 0 2rem;
+    width: 70rem;
+    margin: auto;
+}
+.vacany ol{
+    list-style: decimal;
+    padding:0;
+    margin: 5px 20px 0px 15px;
+    border:0;
+}
+
+.vacany li{
+    list-style: decimal;
+    padding:0;
+    margin: 15px 20px 0px 15px;
+    border:0;
+}
+
+.student-info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.student-info ul{
+    padding:0;
+    margin: 10px 20px 0px 35px;
+    border:0;
+}
+
+.student-info li{
+    font-size: 1rem;
+    font-family: "Arial", sans-serif;
+    height: 1.5rem;
+}
