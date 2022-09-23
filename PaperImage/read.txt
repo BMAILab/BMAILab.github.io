@@ -1,1 +1,1 @@
-This file is used for storing paper covering images.
+This folder is used for storing paper covering images.
