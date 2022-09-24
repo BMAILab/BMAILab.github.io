@@ -1,5 +1,5 @@
 .publication .publication-container{
-    width: 70rem;
+    width: 68rem;
     padding: 0 1rem;
     margin: auto;
     box-sizing: border-box;
@@ -14,8 +14,8 @@
 
 .publication li{
     list-style: none;
-    font-size: 1.2rem;
-    font-family: "Arial", sans-serif;
+    font-size: 1.0rem;
+    font-family: "PT Serif",serif;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -38,18 +38,18 @@
 .blocktitle a
 {
 margin:5px;
-padding:25px ;
-font-size: 1.2rem;
-line-height: 1.2rem;
+padding:20px ;
+font-size: 0.8rem;
+line-height: 0.8rem;
 color: #987cb9;
 text-decoration: none;
-font-family: Arial,Helvetica,sans-serif;
+font-family: "PT Serif",serif;
 
 
 }
 .blocktitle h3
 {
-font-size: 1.2rem;
+font-size: 1.0rem;
 color: #987cb9;
 text-align: center; 
 }
@@ -68,5 +68,5 @@ padding-left:4px ;
 font-size: 1.0rem;
 
 text-decoration: none;
-font-family: Arial,Helvetica,sans-serif;
+font-family: "PT Serif",serif;
 }
