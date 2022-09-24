@@ -1,5 +1,5 @@
 body {
-    font-family: "PT Serif",serif;
+    font-family: "PT Serif", serif;
     margin: 0;
     font-size: 20pt;
 }
@@ -8,24 +8,28 @@ body {
     text-align: center;
     margin-top: 15pt;
 }
+
 .header-cotainer .lab-img {
     width: 600pt;
 }
+
 .tutor-content {
-    padding: 25pt 0;
+    padding-top: 5pt;
     font-size: 12pt;
     display: flex;
     justify-content: center;
 }
 
-.tutor-content .img-content img{
+.tutor-content .img-content img {
     width: 220pt;
     height: 180pt;
     margin-right: 36pt;
 }
+
 .text-content .text-row {
     display: flex;
 }
+
 .text-content .text-row:not(:first-child) {
     margin-top: 16pt;
 }
@@ -34,13 +38,16 @@ body {
     font-size: 16pt;
     font-weight: bold;
 }
+
 .text-content .tutor-name .left .totur-honer {
     font-size: 14pt;
     font-weight: normal;
 }
+
 .text-row .left {
     width: 350pt;
 }
+
 .text-row .right {
     width: 206pt;
 }
@@ -56,11 +63,9 @@ body {
     color: black;
     margin-top: 10pt;
 }
-
-/*.team-degree-content:nth-child(odd) {*/
-/*    background-color: #e5e5e5;*/
-/*}*/
-
+.team-degree-content {
+    margin-top: 25pt;
+}
 .degree-title {
     font-size: 18pt;
     font-weight: bold;
@@ -71,39 +76,53 @@ body {
 }
 
 .degree-title .title-content {
-    width: 690pt;
     text-align: left;
     margin: auto;
+background-color: #DCF3F3;
+}
+
+.member-box {
+    padding: 0 16pt;
+    margin-top: -40pt;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .degree-content {
+    padding: 8pt;
+    border: 1px solid #ccc;
     display: flex;
     font-size: 14pt;
     justify-content: center;
-    padding-bottom: 10pt;
     align-items: center;
+    margin-top: 40pt;
 }
 
-.degree-content .member-img {
-    /*clip-path: polygon(50% 0, 100% 38%, 82% 100%, 18% 100%, 0% 38%);*/
-    clip-path: polygon(0% 0,75% 0,100% 50%,75% 100%,0% 100%);
+.member-img-box {
     width: 120pt;
-    height: 120pt;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    height: 150pt;
+    overflow: hidden;
+    position: relative;
+}
+.degree-content .member-img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
 }
 
 .degree-content .menber-content {
-    margin-left: 36pt;
-    padding: 16pt 25pt 0 4pt;
-    border-top: 1px solid #ccc;
+    margin-left: 20pt;
 }
 
 .degree-contact {
-    width: 462pt;
     font-size: 14pt;
-    display: flex;
-    justify-content: space-between;
+}
+
+.degree-contact .contact {
+    margin-top: 10pt;
 }
 
 .menber-content {
@@ -121,7 +140,7 @@ body {
 }
 
 .interests .list {
-    margin-top: 16pt;
+    margin-top: 5pt;
 }
 
 .menber-content .interests {
@@ -129,10 +148,16 @@ body {
 }
 
 .interests li {
-    margin-left: 15pt;
-    padding-left: 15pt;
+    margin-left: 10pt;
+    padding-left: 5pt;
 }
 
 .interests .m-title {
-    margin-top: 16pt;
+    margin-top: 10pt;
 }
+
+.degree .m-title {
+    line-height: 30pt;
+    text-align: center;
+}
+
