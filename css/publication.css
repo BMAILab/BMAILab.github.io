@@ -15,7 +15,7 @@
 .publication li{
     list-style: none;
     font-size: 1.0rem;
-    font-family: "PT Serif",serif;
+    font-family: font-family: arial, helvetica, sans-serif;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -43,13 +43,13 @@ font-size: 12pt;
 line-height: 8pt;
 color: #987cb9;
 text-decoration: none;
-font-family: "PT Serif",serif;
+font-family: font-family: arial, helvetica, sans-serif;
 
 
 }
 .blocktitle h3
 {
-font-size: 1.0rem;
+font-size: 14pt;
 color: #987cb9;
 text-align: center; 
 }
@@ -66,7 +66,6 @@ padding-left:4px ;
 
 .paper  a {
 font-size: 1.0rem;
-
 text-decoration: none;
-font-family: "PT Serif",serif;
+font-family: font-family: arial, helvetica, sans-serif;
 }

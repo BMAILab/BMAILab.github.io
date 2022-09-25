@@ -1,7 +1,7 @@
 body {
-    font-family: "PT Serif",serif;
+    font-family: arial, helvetica, sans-serif;
     margin: 0;
-    font-size: 20pt;
+    font-size: 14pt;
 }
 .tutor-content {
     padding: 25pt 0;
@@ -40,17 +40,18 @@ body {
     display: block;
 }
 .content {
-    font-size: 1.3rem;
-    margin-top: 2rem;
+    font-size: 12pt
+    margin-top:5pt;
 }
 
 .content .news-item {
     display: flex;
     box-sizing: border-box;
-    width: 70rem;
+    width: 69rem;
     margin: auto;
     padding: 1rem 1.4rem;
     border-bottom: 1px solid #ccc;
+    text-align: justify;
 }
 
 .content .news-item .left img {
@@ -68,9 +69,18 @@ body {
 
 .content .news-title {
     font-size: 14pt;
-    margin: 0 0 1rem 0;
+ 
 }
 
 .content .news-text {
-    font-size: 1rem;
+    font-size: 12pt;
+}
+
+.blocktitle
+{
+          margin-top: 5px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:5px;
+	background-color: #DCF3F3;
 }

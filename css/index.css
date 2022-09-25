@@ -99,7 +99,7 @@
 .content li{
     list-style: circle;
     font-size: 15px;
-    font-family: "Arial", sans-serif;
+   font-family: arial, helvetica, sans-serif;
     height:25px;
     line-height: 25px;
 }

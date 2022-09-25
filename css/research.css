@@ -1,5 +1,5 @@
 .content{
-    font-size: 1.2rem;
+    font-size: 14pt;
 }
 .content .events {
     box-sizing: border-box;
@@ -17,7 +17,7 @@
 .content li{
     list-style: circle;
     font-size: 1.2rem;
-    font-family: "PT Serif",serif;
+    font-family: arial, helvetica, sans-serif;
 }
 
 .content li:not(:first-child){
